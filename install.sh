@@ -267,7 +267,7 @@ noryx_license_gate_ui() {
     noryx_box_row "Required      ${NORYX_REQUIRED_FEATURES}"
     noryx_box_empty
     noryx_box_row "Your license remains hidden while you type."
-    noryx_box_row "The token is never printed back to the terminal."
+    noryx_box_row "The License Key is never printed back to the terminal."
     noryx_box_empty
 
     noryx_box_bottom
