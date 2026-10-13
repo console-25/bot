@@ -1,0 +1,29 @@
+# Private source
+/bot.py
+/src/
+build-public-release.sh
+
+# Noryx private material
+private.key
+security.json
+
+# Licenses and credentials
+*.nlm
+*.env
+.env
+.env.*
+!/.env.example
+
+# Databases
+*.db
+*.db-wal
+*.db-shm
+
+# Development/build state
+.venv/
+.noryx-runtime-test/
+.noryx-public-build/
+__pycache__/
+*.pyc
+backups/
+*.before-*
