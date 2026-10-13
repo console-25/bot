@@ -275,7 +275,7 @@ noryx_license_gate_ui() {
     echo
 
     read -rsp \
-        "$(echo -e "${GOLD}${BOLD}  License token ❯ ${NC}")" \
+        "$(echo -e "${GOLD}${BOLD}  License Key ❯ ${NC}")" \
         NORYX_LICENSE
 
     echo
@@ -858,7 +858,7 @@ configure_env() {
         "$CONFIG_DIR"
 
 
-    # Signed license token.
+    # Signed License Key.
     printf \
         '%s\n' \
         "$NORYX_LICENSE" \
